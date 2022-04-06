@@ -1,22 +1,23 @@
 body {
-    background: #e5e5e5;
-    color: 252823;
-    text-align: center;
+  background: #e5e5e5;
+  color: 252823;
+  text-align: center;
 }
 
 button {
-    color: #ff5e84;
-    border: none;
-    font-weight: bold;
-    background: none;
+  color: #ff5e84;
+  border: none;
+  font-weight: bold;
+  background: none;
 }
 
 .fat {
-    color: white;
-    background: #ff5e84;
+  color: white;
+  background: #ff5e84;
 }
 
 #footer a {
-    color: #25282b;
-    text-decoration: none;
+  color: #25282b;
+  text-decoration: none;
 }
+/*# sourceMappingURL=style.css.map */
