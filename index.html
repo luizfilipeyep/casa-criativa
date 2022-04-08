@@ -25,7 +25,7 @@
             </main>
 
             <section id="buttons">
-                <button>+ Adicionar Ideia</button>
+                <button onclick="onOff()">+ Adicionar Ideia</button>
                 <button class="fat">Ver Ideias</button>
             </section>
 
@@ -72,6 +72,42 @@
                 </div>
             </div>
         </section>
+    </div>
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova ideia</h1>
+
+            <form action="">
+                <div class="input-wrapper">
+                    <label for="title">Título da Ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da Imagem</label>
+                    <input type="url" name="image">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para esta ideia</label>
+                    <textarea name="description" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da Ideia</label>
+                    <input type="text" name="link">
+                </div>   
+                
+                <a href="#" onclick="onOff()">Voltar</a>
+                <button>Salvar</button>
+            </form>
+        </div>
     </div>
 
     <script src="js/main.js"></script>
