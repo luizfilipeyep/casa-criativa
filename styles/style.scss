@@ -240,3 +240,19 @@ footer {
 body.hideScroll {
     overflow: hidden;
 }
+#modal.addScroll {
+    overflow: auto;
+}
+
+#modal::-webkit-scrollbar {
+    width: .5vw;               /* width of the entire scrollbar */
+}
+  
+#modal::-webkit-scrollbar-track {
+    background: #ff5e84;        /* color of the tracking area */
+}
+  
+#modal::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
