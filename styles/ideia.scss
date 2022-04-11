@@ -1,0 +1,42 @@
+#page-ideias #container {
+    display: block;
+}
+
+#page-ideias header {
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        li {
+            list-style: none;
+            margin-right: 16px;
+
+            a {
+                color: #25282b;
+            }
+        }
+        li:last-child {
+            margin: 0;         
+            
+            a {
+                width: 150px;
+                height: 40px;
+                background-color: #ff5e84;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+                color: white;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            a:hover {
+                background-color: #0984e3;
+                text-decoration: none;
+            }
+        }
+    }
+}
