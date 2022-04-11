@@ -43,7 +43,6 @@
 
 #page-ideias section#title {
     text-align: center;
-    margin: 64px 0;
 
     p {
         opacity: .7;
@@ -54,4 +53,20 @@
         margin: 0;
         font-size: 28px;
     }
+}
+
+#page-ideias section.ideas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    .idea {
+        margin: 0;
+    }
+}
+
+#page-ideias section#title,
+#page-ideias section.ideas,
+footer {
+    margin-top: 64px;
 }

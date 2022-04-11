@@ -237,3 +237,6 @@ footer {
     opacity: 0;
     visibility: hidden;
 }
+body.hideScroll {
+    overflow: hidden;
+}
